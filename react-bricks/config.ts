@@ -11,7 +11,7 @@ const config: types.ReactBricksConfig = {
   bricks,
   pageTypes,
   customFields: [],
-  logo: '/logo.svg',
+  logo: '/logo.jpg',
   loginUI: {},
   contentClassName: '',
   //defaultTheme: "",
