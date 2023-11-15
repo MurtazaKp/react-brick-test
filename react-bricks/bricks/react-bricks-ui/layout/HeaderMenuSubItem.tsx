@@ -13,7 +13,7 @@ const HeaderMenuSubItem: types.Brick<HeaderMenuSubItemProps> = ({
 }) => {
   return (
     <Link href={linkPath} className="group p-0 mb-3 lg:p-3 flex items-start">
-      <div className="text-sky-500 lg:hidden mr-2">
+      <div className="text-sky-500  lg:hidden mr-2">
         <FiChevronRight />
       </div>
       <div className="flex-1 overflow-hidden lg:overflow-auto">
