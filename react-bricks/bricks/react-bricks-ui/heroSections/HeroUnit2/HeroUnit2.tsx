@@ -115,16 +115,16 @@ const HeroUnit2: types.Brick<HeroUnitProps> = ({
               propName="text"
               allowedFeatures={[types.RichTextFeatures.Bold]}
             />
-            <Repeater
-              propName="buttons"
-              renderWrapper={(items) => (
-                <div className="flex flex-row space-x-5 items-center justify-center lg:justify-start mt-6">
-                  {items}
-                </div>
-              )}
-            />
           </div>
-        </div>
+        </div>{' '}
+        <Repeater
+          propName="buttons"
+          renderWrapper={(items) => (
+            <div className="flex flex-row space-x-5 items-center justify-center lg:justify-start mt-6">
+              {items}
+            </div>
+          )}
+        />
       </Container>
     </Section>
   )
